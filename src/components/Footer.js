@@ -1,29 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
+      <footer className="bg-teal-900 py-10 mt-20 px-3">
+          <div className="container text-white m-auto py-10">
+            <div className="flex">
+              <div className="w-1/3">
                 <section className="menu">
-                  <ul className="menu-list">
+                  <ul className="leading-loose">
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
@@ -32,16 +21,6 @@ const Footer = class extends React.Component {
                     <li>
                       <Link className="navbar-item" to="/about">
                         About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
                       </Link>
                     </li>
                     <li>
@@ -57,56 +36,50 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="w-1/3">
                 <section>
-                  <ul className="menu-list">
+                  <ul className="leading-loose">
                     <li>
                       <Link className="navbar-item" to="/blog">
                         Latest Stories
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
+                      <Link className="navbar-item hidden" to="/contact">
                         Contact
                       </Link>
                     </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+              <div className="w-1/3 px-3">
+                <a title="facebook" href="https://facebook.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
                   <img
+                    className="inline-block"
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://twitter.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
                   <img
-                    className="fas fa-lg"
+                    className="fas fa-lg inline-block"
                     src={twitter}
                     alt="Twitter"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://instagram.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
                   <img
+                    className="inline-block"
                     src={instagram}
                     alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
               </div>
             </div>
           </div>
-        </div>
       </footer>
     )
   }

@@ -7,20 +7,19 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
     return (
-      <div className="columns is-multiline">
+      <div className="flex flex-wrap items-start -mx- mt-10">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="w-full sm:w-1/2 px-3 mb-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                className={`shadow-lg p-6 rounded border border-gray-100 ${
+                  post.frontmatter.featuredpost ? 'bg-green-100 border-green-200' : 'bg-white'
                 }`}
               >
-                <header>
+                <header className='flex mb-2'>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <div className="w-1/2 mr-4 mb-2">
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
@@ -29,24 +28,20 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
+                  <p>
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="text-3xl tracking-tight leading-none text-teal-600"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
                 </header>
-                <p>
+                <p className="mt-3">
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="btn btn-teal-outline" to={post.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>
@@ -88,7 +83,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 200, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

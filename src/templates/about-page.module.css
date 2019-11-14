@@ -1,0 +1,10 @@
+.page {
+    @apply w-3/5 mt-10;
+}
+.page h2 {
+    @apply font-semibold text-3xl my-4;
+}
+
+.page h3 {
+    @apply font-semibold text-2xl my-2 mt-8;
+}

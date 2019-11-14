@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply antialiased text-gray-800
+}
+
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+.btn-teal {
+    @apply bg-teal-500 text-white;
+}
+
+.btn-teal:hover {
+    @apply bg-teal-400;
+}
+
+.btn-teal-outline {
+    @apply text-teal-500 bg-white border border-teal-500;
+}
+
+.btn-teal-outline:hover {
+    @apply text-teal-600 border-teal-600;
+}
+
+.blog-post .gatsby-resp-image-wrapper {
+    @apply mb-6;
+}
+
+.blog-post-h {
+    @apply leading-loose mt-4;
+}
+
+.blog-post h2 {
+    @apply blog-post-h text-3xl;
+}
+
+.blog-post ol {
+    @apply list-decimal ml-10 my-5 leading-loose;
+}
+
+.blog-post a {
+    @apply text-teal-500;
+}
+
+.blog-post a:hover {
+    @apply text-teal-600;
+}

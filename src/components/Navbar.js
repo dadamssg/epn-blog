@@ -1,93 +1,44 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import React from "react"
+import { Link } from "gatsby"
+import './Navbar.css'
 
 const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
-
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
-
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+      <nav className="flex items-center justify-between flex-wrap text-teal-500 p-6 px-3 container m-auto">
+        <div className="flex items-center flex-shrink-0 mr-6">
+          <Link to='/' className='font-semibold text-xl tracking-tight text-black'>
+            EventPhoneNumber.com
+          </Link>
+        </div>
+        <label
+          className="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400"
+          htmlFor="menu-toggle">
+          <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+          </svg>
+        </label>
+        <input className="hidden" type="checkbox" id="menu-toggle"/>
+        <div className={`hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto`} id="menu">
+          <div className="text-sm lg:flex-grow">
+            <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-teal-600 mr-4">
+              About
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+          <div>
+            <a
+              href="https://app.eventphonenumber.com/auth/login"
+              className="inline-block text-sm px-4 py-2 leading-none rounded text-teal-500 bg-white border border-teal-500 mt-4 lg:mt-0 mr-2"
+            >
+              Login
+            </a>
+            <a
+              href="https://app.eventphonenumber.com/auth/register"
+              className="inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0"
+            >
+              Get Free Phone Number
+            </a>
           </div>
         </div>
       </nav>
