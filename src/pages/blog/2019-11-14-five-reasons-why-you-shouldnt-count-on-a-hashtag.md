@@ -1,10 +1,10 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: 5 reasons why you shouldn't count on a hashtag
 date: 2019-11-14T04:11:56.000Z
+description: Don't make a huge mistake with a hashtag.
 featuredpost: true
-description: >-
-  Don't make a huge mistake with a hashtag.
+featuredimage: /img/sad.jpg
 tags:
   - wedding
   - hashtag
