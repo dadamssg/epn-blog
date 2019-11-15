@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -7,7 +6,7 @@ import twitter from '../img/social/twitter.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="bg-teal-900 py-10 mt-20 px-3">
+      <footer className="bg-teal-900 py-10 mt-16 px-3">
           <div className="container text-white m-auto py-10">
             <div className="flex">
               <div className="w-1/3">

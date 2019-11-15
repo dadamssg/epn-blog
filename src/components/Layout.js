@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import './tailwind.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import MailchimpSignup from './MailchimpSignup'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -52,6 +53,9 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div className='main-container'>
         {children}
+      </div>
+      <div className="container m-auto mt-16">
+        <MailchimpSignup />
       </div>
       <Footer />
     </div>
