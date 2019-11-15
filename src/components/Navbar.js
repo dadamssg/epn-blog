@@ -28,10 +28,10 @@ const Navbar = class extends React.Component {
           </div>
           <div>
             <a
-              href="https://app.eventphonenumber.com/auth/login"
-              className="app-link inline-block text-sm px-4 py-2 leading-none rounded text-teal-500 bg-white border border-teal-500 mt-4 lg:mt-0 mr-2"
+              href="https://eventphonenumber.com"
+              className="app-link inline-block text-sm px-4 py-2 leading-none rounded text-teal-500 bg-white border border-white mt-4 lg:mt-0 mr-2"
             >
-              Login
+              Product
             </a>
             <a
               href="https://app.eventphonenumber.com/auth/register"
