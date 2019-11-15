@@ -1,5 +1,5 @@
 .page {
-    @apply w-3/5 mt-10;
+    @apply mt-10 px-3;
 }
 .page h2 {
     @apply font-semibold text-3xl my-4;

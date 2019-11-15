@@ -7,9 +7,12 @@ const Navbar = class extends React.Component {
     return (
       <nav className="flex items-center justify-between flex-wrap text-teal-500 p-6 px-3 container m-auto">
         <div className="flex items-center flex-shrink-0 mr-6">
-          <Link to='/' className='font-semibold text-xl tracking-tight text-black'>
+          <Link to='/' className='logo'>
             EventPhoneNumber.com
           </Link>
+          <span className="inline-block ml-1">
+            | Blog
+          </span>
         </div>
         <label
           className="block lg:hidden cursor-pointer flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400"
@@ -22,9 +25,6 @@ const Navbar = class extends React.Component {
         <input className="hidden" type="checkbox" id="menu-toggle"/>
         <div className={`hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto`} id="menu">
           <div className="text-sm lg:flex-grow">
-            <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 hover:text-teal-600 mr-4">
-              About
-            </Link>
           </div>
           <div>
             <a

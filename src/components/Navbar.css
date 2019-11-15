@@ -1,3 +1,9 @@
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.11rem;
+    color: #2d3748;
+    font-weight: bold;
+}
 #menu-toggle:checked+#menu {
     display: block;
 }

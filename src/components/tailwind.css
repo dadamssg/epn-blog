@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 :root {
-    @apply antialiased text-gray-800
+    @apply antialiased text-gray-800;
+    font-size: 112.5%;
+}
+
+.main-container {
+    min-height: 50vh;
 }
 
 .btn {
@@ -35,7 +40,7 @@
 }
 
 .blog-post h2 {
-    @apply blog-post-h text-3xl;
+    @apply blog-post-h text-2xl;
 }
 
 .blog-post ol {
