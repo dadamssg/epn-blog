@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Share from '../components/Share'
+import config from '../../config/website'
 
 export const BlogPostTemplate = ({
   content,
@@ -31,7 +32,7 @@ export const BlogPostTemplate = ({
           </p>
           <PostContent content={content} />
           <div className="mt-16">
-            <Share url={`${window.location.origin}${slug}`} />
+            <Share url={`${config.host}${slug}`} />
           </div>
           {tags && tags.length ? (
             <div style={{ marginTop: `4rem` }} className="hidden">
