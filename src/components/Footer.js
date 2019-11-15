@@ -9,14 +9,13 @@ const Footer = class extends React.Component {
       <footer className="bg-teal-900 py-10 mt-16 px-3">
           <div className="container text-white m-auto py-10">
             <div className="flex">
-              <div className="w-1/3">
+              <div className="w-1/2">
                 <span className='text-sm inline-block mb-3'>
                   EventPhoneNumber.com © {(new Date()).getFullYear()}
                 </span>
               </div>
-              <div className="w-1/3" />
-              <div className="w-1/3 text-right">
-                <a title="facebook" href="https://facebook.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
+              <div className="w-1/2 text-right">
+                <a title="facebook" href="https://facebook.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-2 md:mr-5">
                   <img
                     className="inline-block"
                     src={facebook}
@@ -24,7 +23,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
+                <a title="twitter" href="https://twitter.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-2 md:mr-5">
                   <img
                     className="fas fa-lg inline-block"
                     src={twitter}
@@ -32,7 +31,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-3">
+                <a title="instagram" href="https://instagram.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-2 md:mr-5">
                   <img
                     className="inline-block"
                     src={instagram}
