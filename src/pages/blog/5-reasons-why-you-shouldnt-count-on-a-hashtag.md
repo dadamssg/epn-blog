@@ -42,5 +42,5 @@ If you're not too keen on exposing your personal phone number to all of your gue
 <br /><br />
 Wedding hashtags are meant for you to be able to track down your photos afterwards. Unfortunately, they do a pretty bad job at that. If you want to capture the most memories from your big day, ditch the hashtag. 
 <br /><br />
-Have some engaged friends? Do them a favor and share this article!
+Have some engaged friends? Do them a favor and share this article.
 
