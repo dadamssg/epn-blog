@@ -16,7 +16,7 @@ const Footer = class extends React.Component {
                 </span>
               </div>
               <div className="w-1/3" />
-              <div className="w-1/3 px-3">
+              <div className="w-1/3 text-right">
                 <a title="facebook" href="https://facebook.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
                   <img
                     className="inline-block"
@@ -33,7 +33,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-5">
+                <a title="instagram" href="https://instagram.com/eventphonenum" className="inline-block rounded-full bg-white py-1 px-2 mr-3">
                   <img
                     className="inline-block"
                     src={instagram}
