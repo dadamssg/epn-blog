@@ -29,13 +29,13 @@ const Navbar = class extends React.Component {
           <div>
             <a
               href="https://app.eventphonenumber.com/auth/login"
-              className="inline-block text-sm px-4 py-2 leading-none rounded text-teal-500 bg-white border border-teal-500 mt-4 lg:mt-0 mr-2"
+              className="app-link inline-block text-sm px-4 py-2 leading-none rounded text-teal-500 bg-white border border-teal-500 mt-4 lg:mt-0 mr-2"
             >
               Login
             </a>
             <a
               href="https://app.eventphonenumber.com/auth/register"
-              className="inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0"
+              className="app-link inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0"
             >
               Get Free Phone Number
             </a>
