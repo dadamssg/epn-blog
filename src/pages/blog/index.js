@@ -10,7 +10,6 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="w-full mt-0"
           style={{
-            backgroundImage: `url('/img/Trees.jpg')`,
             width: `100vw`,
             height: 400,
             backgroundSize: `cover`,

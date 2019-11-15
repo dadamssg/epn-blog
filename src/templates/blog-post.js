@@ -18,7 +18,6 @@ export const BlogPostTemplate = ({
   slug
 }) => {
   const PostContent = contentComponent || Content
-  console.log(slug)
   return (
     <div className="container mx-auto mt-8 blog-post px-3">
       <section className="section">
