@@ -7,13 +7,13 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import MailchimpSignup from './MailchimpSignup'
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+const TemplateWrapper = ({ children, title }) => {
+  const { title: siteTitle, description } = useSiteMetadata()
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>{title || siteTitle}</title>
         <meta name="description" content={description} />
 
         <link
@@ -42,7 +42,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={title || siteTitle} />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
