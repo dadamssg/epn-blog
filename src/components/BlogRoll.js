@@ -36,16 +36,16 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <p className="mt-3">
-                      {post.excerpt}
-                      <br />
-                      <br />
-                      <div className="text-center md:text-right">
+                    <div className="mt-3">
+                      <p>
+                        {post.excerpt}
+                      </p>
+                      <div className="text-center md:text-right mt-5">
                         <Link className="btn btn-teal-outline" to={post.fields.slug}>
                           Keep Reading →
                         </Link>
                       </div>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </article>
