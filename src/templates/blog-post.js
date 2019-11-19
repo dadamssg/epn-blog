@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Share from '../components/Share'
 import config from '../../config/website'
+import get from 'lodash/get'
 
 export const BlogPostTemplate = ({
   content,
@@ -64,6 +65,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
+  const imgUrl = get(post, 'frontmatter.featuredimage.publicURL')
   return (
     <Layout title={post.frontmatter.title}>
       <BlogPostTemplate
@@ -81,6 +83,12 @@ const BlogPost = ({ data }) => {
               property="og:description"
               content={`${post.frontmatter.description}`}
             />
+            {imgUrl && (
+              <meta
+                property="og:image"
+                content={imgUrl}
+              />
+            )}
           </Helmet>
         }
         tags={post.frontmatter.tags}
@@ -112,6 +120,9 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          publicURL
+        }
       }
     }
   }
