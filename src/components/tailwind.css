@@ -47,10 +47,10 @@
     @apply list-decimal ml-10 my-5 leading-loose;
 }
 
-.blog-post a {
+.blog-post a:not(.button) {
     @apply text-teal-500;
 }
 
-.blog-post a:hover {
+.blog-post a:not(.button):hover {
     @apply text-teal-600;
 }

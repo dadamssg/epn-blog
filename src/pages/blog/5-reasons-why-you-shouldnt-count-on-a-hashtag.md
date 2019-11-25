@@ -38,7 +38,7 @@ Use that cute hashtag you came up with in a new gmail address and have your gues
 <br /><br />
 If you're not too keen on exposing your personal phone number to all of your guests, consider using <a href="https://eventphonenumber.com">EventPhoneNumber.com</a>. When you create an account you'll be assigned a brand new unique phone number to encourage your guests to text their photos to. The photos will be aggregated into a beautiful live gallery where everyone can enjoy them instantly. The photos will stay in your account forever where you can download them all at any time.
 
-<div class="text-center"><a href="https://app.eventphonenumber.com/auth/register" class="app-link inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0">Get Free Phone Number</a></div>
+<div class="text-center mt-8"><a href="https://app.eventphonenumber.com/auth/register" class="button inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0">Get Free Phone Number</a></div>
 <br /><br />
 Wedding hashtags are meant for you to be able to track down your photos afterwards. Unfortunately, they do a pretty bad job at that. If you want to capture the most memories from your big day, ditch the hashtag. 
 <br /><br />
