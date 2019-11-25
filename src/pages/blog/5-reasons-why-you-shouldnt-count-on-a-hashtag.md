@@ -12,8 +12,6 @@ tags:
 ---
 ![sad bride](/img/sad.jpg "sad bride")
 
-
-
 ## 1.
 
 Not everyone participates in social media. Weddings are guaranteed to have attendees that aren't into having a social media presence. These guests will automatically be excluded from sharing their experience if a hashtag is their only means to do so.
@@ -39,8 +37,9 @@ Coming up with the perfect hashtag is stressful. It needs to be unique, fun, and
 Use that cute hashtag you came up with in a new gmail address and have your guests send them there. If you think that could be too cumbersome, consider encouraging them to text them to your personal phone number. Having a single place for you guests to send their photos will guarantee you see the most.
 <br /><br />
 If you're not too keen on exposing your personal phone number to all of your guests, consider using <a href="https://eventphonenumber.com">EventPhoneNumber.com</a>. When you create an account you'll be assigned a brand new unique phone number to encourage your guests to text their photos to. The photos will be aggregated into a beautiful live gallery where everyone can enjoy them instantly. The photos will stay in your account forever where you can download them all at any time.
+
+<div class="text-center"><a href="https://app.eventphonenumber.com/auth/register" class="app-link inline-block text-sm px-4 py-2 leading-none rounded text-white bg-teal-500 hover:bg-teal-400 mt-4 lg:mt-0">Get Free Phone Number</a></div>
 <br /><br />
 Wedding hashtags are meant for you to be able to track down your photos afterwards. Unfortunately, they do a pretty bad job at that. If you want to capture the most memories from your big day, ditch the hashtag. 
 <br /><br />
 Have some engaged friends? Do them a favor and share this article.
-
