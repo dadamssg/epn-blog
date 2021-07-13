@@ -10,9 +10,7 @@ featuredimage: /img/twilio-sms.png
 tags:
   - how-to
 ---
-
-
-Our cell phones have incredibly powerful cameras built into them these days. It's really easy to take advantage of that for your event. 
+Our cell phones have incredibly powerful cameras built into them these days. It's really easy to take advantage of this for your event. 
 
 You _could_ tell your guests to take pictures and post them to their social media accounts using an event hashtag but we have a [whole post on why that's not such a great idea](https://blog.eventphonenumber.com/blog/5-reasons-why-you-shouldnt-count-on-a-hashtag/).
 
@@ -31,13 +29,15 @@ Once you have a phone number, you can send text messages to it and those message
 Even though these are "programmable" phone numbers, you don't have to know any programming at all. Once you've purchased a phone number, you're all set to start telling your guests to text their pictures in immediately. Here's some ideas on how to do that:
 
 * Set up a chalkboard at the venue entrance that says something similar to "Sign our guestbook by texting a selfie to (xxx) xxx-xxxx!"
-* Use [place cards on the tables](https://www.amazon.com/Table-Place-Cards-Place-Card-Holders/b?ie=UTF8&node=13468941) to explain what to do
+* Use [place cards on the tables](https://www.amazon.com/Table-Place-Cards-Place-Card-Holders/b?ie=UTF8&node=13468941) to tell your guests to share their photos by texting them into your phone number
 * Ask your DJ to announce at some point, "The bride and groom want to remember as much as possible about this day. Help them do that by taking a picture of your group and texting it to (xxx) xxx-xxxx!"
 
-You'll instantly have a number of your guest's unique photos stored in your Twilio account for you to view and download afterwards. 
+You'll instantly have several of your guest's unique photos stored in your Twilio account for you to view and download afterwards. In the **Incoming** messages table, click each message's **Date** to view the pictures attached to the message. Right click the picture and select **Save Image as...**
 
-Once your event is over and you've downloaded your photos, simply "Release" the phone number to stop paying $1/month.
+![Twilio save picture](/img/twilio-save-picture.png "Twilio save picture")
+
+Once your event is over and you've downloaded your photos, simply "Release" the phone number to stop paying the $1/month.
 
 ![Twilio release phone number](/img/twilio-release.png "Twilio release phone number")
 
-**Make sure you've downloaded your photos though!** You will not have access to them after you have released the phone number.
+**Make sure you've downloaded your photos though!** You will not have access to them after the phone number has been released.
