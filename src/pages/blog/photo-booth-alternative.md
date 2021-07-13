@@ -1,0 +1,43 @@
+---
+templateKey: blog-post
+title: Photo booth alternative
+date: 2021-07-13T02:37:59.430Z
+description: >-
+  Try this idea if your looking for something a little different than a photo
+  booth.
+featuredpost: true
+featuredimage: /img/twilio-sms.png
+tags:
+  - how-to
+---
+
+
+Our cell phones have incredibly powerful cameras built into them these days. It's really easy to take advantage of that for your event. 
+
+You _could_ tell your guests to take pictures and post them to their social media accounts using an event hashtag but we have a [whole post on why that's not such a great idea](https://blog.eventphonenumber.com/blog/5-reasons-why-you-shouldnt-count-on-a-hashtag/).
+
+You could also tell your guests to text _you_ their photos but handing your phone number out to everyone isn't very appealing either...
+
+Instead, you can get a unique phone number specifically for your event that your guests can text their photos into. It's surprisingly easy too.
+
+Let me tell you about a company called [Twilio](https://www.twilio.com/messaging). Twilio is a publicly traded company that offers programmable phone numbers(among other things). You can purchase a phone number from Twilio for $1.00/month with no long term contract. Yes, you read that right...$1 dollar per month.
+
+![Purchasing a Twilio phone number](/img/twilio-purchase.png "Purchasing a Twilio phone number")
+
+Once you have a phone number, you can send text messages to it and those messages are stored in your phone number's Twilio dashboard. Picture messages [cost one cent each to receive](https://www.twilio.com/sms/pricing/us). Talk about affordable.
+
+![Twilio messages dashboard](/img/twilio-number-messages.png "Twilio messages dashboard")
+
+Even though these are "programmable" phone numbers, you don't have to know any programming at all. Once you've purchased a phone number, you're all set to start telling your guests to text their pictures in immediately. Here's some ideas on how to do that:
+
+* Set up a chalkboard at the venue entrance that says something similar to "Sign our guestbook by texting a selfie to (xxx) xxx-xxxx!"
+* Use [place cards on the tables](https://www.amazon.com/Table-Place-Cards-Place-Card-Holders/b?ie=UTF8&node=13468941) to explain what to do
+* Ask your DJ to announce at some point, "The bride and groom want to remember as much as possible about this day. Help them do that by taking a picture of your group and texting it to (xxx) xxx-xxxx!"
+
+You'll instantly have a number of your guest's unique photos stored in your Twilio account for you to view and download afterwards. 
+
+Once your event is over and you've downloaded your photos, simply "Release" the phone number to stop paying $1/month.
+
+![Twilio release phone number](/img/twilio-release.png "Twilio release phone number")
+
+**Make sure you've downloaded your photos though!** You will not have access to them after you have released the phone number.
