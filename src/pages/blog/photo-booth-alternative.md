@@ -82,15 +82,19 @@ I hope this has been informative and given you another option to consider in you
 
 <br />
 
-<span class="block">
+<div class="text-center text-xs">
 
-<div class="tenor-gif-embed" data-postid="19686982" data-share-method="host" data-width="100%" data-aspect-ratio="1.4954954954954955"><a href="https://tenor.com/view/but-wait-theres-more-gif-19686982">But Wait GIF</a> from <a href="https://tenor.com/search/but-gifs">But GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<img src="https://media1.tenor.com/images/5460aa28b55ac4a7f8cc39b791ec5057/tenor.gif?itemid=19686982" class="m-auto" />
 
-</span>
+Via Tenor
+
+</div>
 
 <br />
 
 If you love the idea but are looking for a little more bells and whistles, we've got you covered. [EventPhoneNumber.com](https://eventphonenumber.com) takes advantage of the "programmable" aspect of Twilio's phone numbers. When you get a phone number through us you get:
+
+<br />
 
 <ul class="list-disc">
 
@@ -108,10 +112,12 @@ If you love the idea but are looking for a little more bells and whistles, we've
 
 <br />
 
-Check out the video below to see it in action.
-
 <div class="text-center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bTYMAxLY3Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Check out the video below to see it in action.
 
 </div>
+
+<br />
+
+<iframe class="m-auto mt-5" width="560" height="315" src="https://www.youtube.com/embed/bTYMAxLY3Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
