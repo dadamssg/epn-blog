@@ -28,8 +28,6 @@ Let me tell you about a company called [Twilio](https://www.twilio.com/messaging
 
 ![Purchasing a Twilio phone number](/img/twilio-purchase.png "Purchasing a Twilio phone number")
 
-
-
 </span>
 
 Once you have a phone number, you can send text messages to it and those messages are stored in your phone number's Twilio dashboard. Picture messages only [cost one cent each to receive](https://www.twilio.com/sms/pricing/us). 
@@ -123,3 +121,13 @@ Check out the video below to see it in action.
 <br />
 
 <iframe class="m-auto mt-5" width="560" height="315" src="https://www.youtube.com/embed/bTYMAxLY3Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<br />
+
+<div class="text-center">
+
+[Click here to get your phone number.](https://app.eventphonenumber.com/auth/register?utm=blog)
+
+</div>
