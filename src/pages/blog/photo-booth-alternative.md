@@ -73,3 +73,45 @@ Once your event is over and you've downloaded your photos, simply "Release" the 
 **Make sure you've downloaded your photos though!** You will not have access to them after the phone number has been released.
 
 <br />
+
+That's it! You now have a digital guestbook of sorts! 
+
+<br />
+
+I hope this has been informative and given you another option to consider in your event planning. 
+
+<br />
+
+<span class="block">
+
+<div class="tenor-gif-embed" data-postid="19686982" data-share-method="host" data-width="100%" data-aspect-ratio="1.4954954954954955"><a href="https://tenor.com/view/but-wait-theres-more-gif-19686982">But Wait GIF</a> from <a href="https://tenor.com/search/but-gifs">But GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+</span>
+
+<br />
+
+If you love the idea but are looking for a little more bells and whistles, we've got you covered. [EventPhoneNumber.com](https://eventphonenumber.com) takes advantage of the "programmable" aspect of Twilio's phone numbers. When you get a phone number through us you get:
+
+<ul class="list-disc">
+
+<li>A live, sharable gallery</li>
+
+<li>A live slideshow to display at the venue</li>
+
+<li>The ability to keep and download all of your pictures at once forever(even after the phone number has been released).</li>
+
+<li>A customizable auto-response when a guest texts in a photo for the first time that contains a link to the gallery</li>
+
+<li>The ability to screen which photos make it to your gallery and slideshow. We'll even do that for you to ensure no questionable pictures from your guests get displayed during your event.</li>
+
+</ul>
+
+<br />
+
+Check out the video below to see it in action.
+
+<div class="text-center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bTYMAxLY3Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
