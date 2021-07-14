@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: Photo booth alternative
+title: How to get a phone number for your event to receive pictures from your guests
 date: 2021-07-13T02:37:59.430Z
 description: >-
-  Try this idea if your looking for something a little different than a photo
-  booth.
+  A walkthrough on how to get a phone number for your guests to text in their
+  pictures during your event.
 featuredpost: true
 featuredimage: /img/twilio-sms.png
 tags:
@@ -22,7 +22,7 @@ Let me tell you about a company called [Twilio](https://www.twilio.com/messaging
 
 ![Purchasing a Twilio phone number](/img/twilio-purchase.png "Purchasing a Twilio phone number")
 
-Once you have a phone number, you can send text messages to it and those messages are stored in your phone number's Twilio dashboard. Picture messages [cost one cent each to receive](https://www.twilio.com/sms/pricing/us). Talk about affordable.
+Once you have a phone number, you can send text messages to it and those messages are stored in your phone number's Twilio dashboard. Picture messages only [cost one cent each to receive](https://www.twilio.com/sms/pricing/us). 
 
 ![Twilio messages dashboard](/img/twilio-number-messages.png "Twilio messages dashboard")
 
