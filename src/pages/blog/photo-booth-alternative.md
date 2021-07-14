@@ -102,11 +102,11 @@ If you love the idea but are looking for a little more bells and whistles, we've
 
 <li>A live slideshow to display at the venue</li>
 
-<li>The ability to keep and download all of your pictures at once forever(even after the phone number has been released).</li>
+<li>The ability to keep and download all of your pictures at once forever(even after the phone number has been released)</li>
 
 <li>A customizable auto-response when a guest texts in a photo for the first time that contains a link to the gallery</li>
 
-<li>The ability to screen which photos make it to your gallery and slideshow. We'll even do that for you to ensure no questionable pictures from your guests get displayed during your event.</li>
+<li>The ability to screen which photos make it to your gallery and slideshow. We'll even do that for you to ensure no questionable pictures from your guests get displayed during your event</li>
 
 </ul>
 
