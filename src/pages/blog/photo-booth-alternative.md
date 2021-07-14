@@ -22,11 +22,13 @@ Instead, you can get a unique phone number specifically for your event that your
 
 <br />
 
-Let me tell you about a company called [Twilio](https://www.twilio.com/messaging). Twilio is a publicly traded company that offers programmable phone numbers(among other things). You can purchase a phone number from Twilio for $1.00/month with no long term contract. Yes, you read that right...$1 dollar per month.
+Let me tell you about a company called [Twilio](https://www.twilio.com/messaging). Twilio is a publicly traded company that offers programmable phone numbers(among other things). You can purchase a phone number from Twilio for $1.00/month with no long term contract.
 
 <span class="block mt-5 mb-5">
 
 ![Purchasing a Twilio phone number](/img/twilio-purchase.png "Purchasing a Twilio phone number")
+
+
 
 </span>
 
